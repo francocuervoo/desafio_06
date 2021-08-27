@@ -56,7 +56,7 @@ messageForm.addEventListener("submit", (e) => {
   };
 
   //Emito nuevo mensaje
-  socket.emit("nuevaMensaje", msg);
+  socket.emit("nuevoMensaje", msg);
 
   //Resetear formulario:
   messageForm.reset();
